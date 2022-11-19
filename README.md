@@ -1,3 +1,6 @@
+# eslint + prettier + stylelint + husky + commitlint
+这一个模板集成了：代码校验功能、代码美化、提交信息格式校验等基础功能
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
