@@ -8,6 +8,7 @@ module.exports = {
     node: true,
   },
   extends: [
+    './.eslintrc-auto-import.json',
     'plugin:vue/vue3-essential',
     '@vue/eslint-config-airbnb-with-typescript',
     '@vue/eslint-config-airbnb-with-typescript/allow-tsx-in-vue',
@@ -19,5 +20,12 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [],
-  rules: {},
+  rules: {
+    'vue/multi-word-component-names': [
+      'error',
+      {
+        ignores: ['index'],
+      },
+    ],
+  },
 }
